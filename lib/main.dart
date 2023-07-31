@@ -3,19 +3,19 @@ import 'package:flutter/cupertino.dart';
 
 void main() {
   runApp(const MaterialApp(
-    home: MyApp(),
+    home: Myapp(),
     debugShowCheckedModeBanner: false,
   ));
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class Myapp extends StatefulWidget {
+  const Myapp({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<Myapp> createState() => _MyappState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _MyappState extends State<Myapp> {
   List<String> name = [
     'name 1',
     'name 2',
